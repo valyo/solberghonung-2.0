@@ -54,10 +54,14 @@
 .sidebar-nav li a:hover {
   color: #fff;
 }
-
 .content-section-about {
   min-height: 35rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/about.png");
   background-color: #ffc107!important;
   background-size: auto, cover;
+}
+@media (min-width: 992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba( 249, 188, 7, 0.8);
+  }
 }
