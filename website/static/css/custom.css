@@ -13,6 +13,10 @@
 :root {
   --bs-primary-rgb: 249,188,7;
 }
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
 .btn-primary {
   background-color: #f9bc07;
   border-color: #f9bc07;
@@ -49,4 +53,11 @@
 }
 .sidebar-nav li a:hover {
   color: #fff;
+}
+
+.content-section-about {
+  min-height: 35rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/about.png");
+  background-color: #ffc107!important;
+  background-size: auto, cover;
 }
