@@ -60,6 +60,29 @@
   background-color: #ffc107!important;
   background-size: auto, cover;
 }
+.content-p {
+  font-size: 1.5rem;
+  text-align: justify;
+  /*width: 100%;*/
+}
+.content-li {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.portfolio-item .caption .caption-content h2 {
+  vertical-align: top;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.portfolio-item .caption .caption-content {
+  color: #fff;
+  margin: 3rem 2rem 2rem;
+}
+.portfolio-item .caption .caption-content p {
+  /*vertical-align: top;*/
+  font-weight: 300;
+  font-size: 1.5rem;
+}
 @media (min-width: 992px) {
   .portfolio-item:hover .caption {
     background-color: rgba( 249, 188, 7, 0.8);
