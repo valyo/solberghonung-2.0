@@ -6,6 +6,8 @@ views = Blueprint("views", __name__)
 @views.route("/")
 def home():
     # return "<h1>Test</h1>"
-    text_to_show = "Test bla"
-
-    return render_template("index.html", text=text_to_show)
+    # with open('andelsbiodling.txt','r') as file:
+    #     text_to_show = file.read()
+    text_to_show = "bla"
+    # return render_template("index.html", text=text_to_show)
+    return render_template("andelsbiodling.html", text=text_to_show)
