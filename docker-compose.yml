@@ -7,4 +7,4 @@ services:
     volumes:
       - .:/app
     environment:
-      FLASK_DEBUG: False
+      FLASK_DEBUG: "False" # ToDo: find out why this doesn't work
