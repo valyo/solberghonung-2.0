@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  solbergh:
+    build: .
+    ports:
+      - "8087:5000"
+    volumes:
+      - .:/app
+    environment:
+      FLASK_DEBUG: False
