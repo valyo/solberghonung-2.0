@@ -10,4 +10,5 @@ def home():
     #     text_to_show = file.read()
     text_to_show = "bla bla"
     # return render_template("base.html", text=text_to_show)
-    return render_template("andelsbiodling.html", text=text_to_show)
+    # return render_template("andelsbiodling.html", text=text_to_show)
+    return render_template("home.html")
